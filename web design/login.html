@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>E-Commerce Service</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+  <link rel="javascript" href="login.js"> 
+  <script src="login.js"></script>
+</head>
+ 
+    <body class="background-image">
+      <br/>
+        <div class="container">   
+        <h1 class="heading">User Login</h1> 
+        <hr>
+        <label class="label1"><strong>Username</strong></label>  
+        <input
+          type="text",
+          placeholder="Enter your Username",
+          id="username"
+          class="username"
+        />
+        <label class="label2"><strong>Password</strong></label>
+        <input
+          type="password",
+          placeholder="Enter the Password",
+          id="password"
+          class="password" 
+        />
+        <br /><br />
+        <button type="button" onclick="validate()" id="login" value="Pressme!" class="login"> 
+          Login
+        </button>
+      </div>     
+    </body>
+</html>

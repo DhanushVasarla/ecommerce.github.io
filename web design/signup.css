@@ -1,0 +1,46 @@
+.background-image {
+    background-image: url('kris-gerhard-0BKZfcamvGg-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+  
+  .container {
+    background-color: aliceblue;
+    width: 350px;
+    height: auto;
+    position: absolute;
+    left: 67%;
+    top: 8%;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .heading {
+    font-family: 'Roboto Slab', serif;
+  }
+  
+  .label1, .label2, .label3, .label4, .label5, .label6 {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+  }
+  
+  .input-field {
+    padding: 10px;
+    width: 95%;
+    border: 2px solid rgba(24, 24, 24, 0.694);
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  
+  .button {
+    margin-top: 20px;
+    background-color: rgb(179, 50, 50);
+    color: white;
+    height: 35px;
+    width: 120px;
+    border-radius: 25px;
+    border: 0px;
+  }
+  

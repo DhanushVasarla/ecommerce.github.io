@@ -1,0 +1,76 @@
+.background-image{
+    background-image: url('kris-gerhard-0BKZfcamvGg-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.container{
+    background-color: aliceblue;
+    width : 350px;
+    height: 400px;
+    position: absolute;
+    left:67%;
+    top:25%;
+  }
+
+  .heading{
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+  }
+  
+  input::placeholder{
+    color: rgba(0, 0, 0, 0.45);
+  }
+
+  .label1{
+    position:absolute;
+    left: 13%;
+    top:32%
+  }
+  
+  .username{
+    padding: 1rem;
+    position: absolute; 
+    width: 250px;
+    height: 5px;
+    left: 10%; 
+    top: 39%; 
+    border: 2px solid rgba(24, 24, 24, 0.694);
+    border-radius: 25px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+  .label2{
+    position:absolute;
+    left: 13%;
+    top:54%
+  }
+
+  .password{
+    position: absolute;
+    padding: 1rem;
+    width: 250px;
+    position: absolute;
+    left: 10%;
+    top: 61%;
+    height: 5px;
+    border: 2px solid rgba(24, 24, 24, 0.694);
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    margin: auto;
+  }
+
+  .login{
+    position: absolute;
+    left: 35%;
+    top: 80%;
+    background-color: rgb(179, 50, 50);
+    color: white;
+    height: 35px;
+    width: 120px;
+    border-radius: 25px;
+    border: 0px;
+  }
